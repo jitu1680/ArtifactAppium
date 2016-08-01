@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1679" started-at="2016-08-01T12:11:23Z" finished-at="2016-08-01T12:11:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1679" started-at="2016-08-01T12:11:23Z" finished-at="2016-08-01T12:11:25Z">
+      <class name="runthis.setup">
+        <test-method status="PASS" signature="setcap()[pri:0, instance:runthis.setup@3f0ee7cb]" name="setcap" is-config="true" duration-ms="20110" started-at="2016-08-01T17:41:03Z" finished-at="2016-08-01T17:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setcap -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runthis.setup@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="2320" started-at="2016-08-01T17:41:25Z" finished-at="2016-08-01T17:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runthis.setup -->
+      <class name="address.AddHomeAddress">
+        <test-method status="PASS" signature="add_address()[pri:0, instance:address.AddHomeAddress@75bd9247]" name="add_address" duration-ms="1662" started-at="2016-08-01T17:41:23Z" finished-at="2016-08-01T17:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_address -->
+      </class> <!-- address.AddHomeAddress -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
